@@ -6,7 +6,7 @@ const archiver = require('archiver');
 require('dotenv').config();
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 // const SECRET_KEY = 'A75|n>Xh_?;I}`YTI%mKEQ/DZ+:K(9Y['; // Must match frontend
 const SECRET_KEY = process.env.SECRET_KEY;
 
